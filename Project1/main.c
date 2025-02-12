@@ -8,10 +8,15 @@
 
 int testing(int qmax);
 
-int main(void) {
+int main(int argc, char** argv) {
+	if (argc != 2) {
+		fprintf(stderr, "usage: %s <number> \nincorrect number of parameters entered\n", argv[0]);
+		exit(EXIT_FAILURE);
+	}
 	srand(time(NULL));
 
-	testing(10);
+	testing(atoi(argv[1]));
+
 
 	return 0;
 }
