@@ -25,3 +25,4 @@ void dequeue(PQUE* head, PQUE* tail);
 
 //other
 void printNode(PQUE node);
+
