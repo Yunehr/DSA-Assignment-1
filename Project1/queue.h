@@ -23,6 +23,6 @@ void enqueue(PQUE* tail, PQUE* head, USER data);
 //A function to dequeue a node (delete from queue)
 void dequeue(PQUE* head, PQUE* tail);
 
-//other
+//print queue node (Username, Level, Faction)
 void printNode(PQUE node);
 

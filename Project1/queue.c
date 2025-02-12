@@ -65,7 +65,7 @@ void dequeue(PQUE* head, PQUE* tail) {
 	}
 }
 
-//other
+//print queue node (Username, Level, Faction)
 void printNode(PQUE node) {
 	printf("\nUser:	 %s\nLevel:	 %d\n", node->data.username, node->data.level);
 
